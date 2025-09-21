@@ -26,3 +26,25 @@
     from, to {border-color: transparent}
     50% {border-color: orange};
 }
+
+.gradient-border-centered {
+    position: relative;
+    /* display: inline-block; */
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.gradient-border-centered::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 2px;
+    transform: translateX(-50%);
+    /* background-size: 200% auto; */
+    /* background-clip: border-box; */
+    z-index: -1;
+}
