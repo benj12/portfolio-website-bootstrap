@@ -1,3 +1,9 @@
 .purple-gradient {
     background-image: linear-gradient(to left, #6f42c1, #4e54c8);
 }
+
+.btn-gradient {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    /* purple-blue gradient */
+    border: none;
+}
