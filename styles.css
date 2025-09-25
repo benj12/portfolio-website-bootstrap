@@ -12,7 +12,6 @@
     display: inline-block;
     border-right: .15em solid orange;
     white-space: nowrap;
-    word-break: break-word;
     letter-spacing: .15em;
     width: 0;
     animation: 
@@ -22,7 +21,7 @@
 
 @keyframes typing {
     from {width: 0} 
-    to {width: 100%}
+    to {width: 18ch};
 }
 @keyframes blink-caret {
     from, to {border-color: transparent}
