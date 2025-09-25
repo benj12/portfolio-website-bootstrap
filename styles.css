@@ -49,3 +49,21 @@
     /* background-clip: border-box; */
     z-index: -1;
 }
+.gradient-border-left {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.gradient-border-left:before {
+    content: '';
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 2px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
