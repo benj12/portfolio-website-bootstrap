@@ -9,12 +9,14 @@
 }
 .typewriter {
     overflow: hidden;
+    display: inline-block;
     border-right: .15em solid orange;
     white-space: nowrap;
-    margin: 0 auto;
+    word-break: break-word;
     letter-spacing: .15em;
+    width: 0;
     animation: 
-        typing 3.5s steps(40, end),
+        typing 1.8s steps(18, end) forwards,
         blink-caret .75s step-end infinite;
 }
 
