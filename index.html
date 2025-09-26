@@ -31,8 +31,10 @@
                     <span class="typewriter">My Digital Sandbox</span>
                 </h1>
                 <p class="p-3 text-white fs-4 fs-md-1">I'm Benjamin Williams, a passionate programmer who <br>transforms ideas into interactive web experiences.</p>
-                <a href="https://www.github.com/benj12" type="button" class="p-3 btn btn-gradient text-white rounded-pill mx-2 fw-bold"><i class="fa-solid fa-eye me-1"></i>View My Work</a>
-                <a href="assets/Ben_Resume.pdf" type="button" class="p-3 btn border border-white rounded-pill text-white fw-bold"><i class="fa-solid fa-circle-down me-1"></i>Download Resume</a>
+                <div class="d-flex flex-row">
+                    <a href="https://www.github.com/benj12" type="button" class="p-3 btn btn-gradient text-white rounded-pill mx-2 fw-bold"><i class="fa-solid fa-eye me-1"></i>View My Work</a>
+                    <a href="assets/Ben_Resume.pdf" type="button" class="p-3 btn border border-white rounded-pill text-white fw-bold"><i class="fa-solid fa-circle-down me-1"></i>Download Resume</a>
+                </div>
             </div>
             <i class="fa-solid fa-laptop-code fa-10x text-white mt-4 mx-auto text-xl-right mt-lg-0"></i>
         </section>
@@ -45,14 +47,12 @@
             <h2 class="p-3 text-center fw-bold gradient-border-centered">Featured Projects</h2>
             <p class="text-center text-black-50">Innovative solutions that showcase my technical expertise</p>
             <div class="row row-cols-1 row-cols-md-2 g-4 align-items-stretch">
-                
                 <div class="col">
-                    
-                    <div class="card mx-5 my-4 rounded-4 border border-1 overflow-hidden">
+                    <div class="card mx-5 my-4 rounded-4 border border-1 overflow-hidden h-100 d-flex flex-column">
                         <div class="bg-success text-white fw-bold rounded-top-4 p-3">
                             Push Notifications App
                         </div>
-                        <div class="card-body">
+                        <div class="card-body flex-grow-1">
                             <p class="text-black">
                                 An iOS app that sends the user local<br>
                                 push notifications daily for 14 days<br>
@@ -65,7 +65,7 @@
                                 <p class="rounded-pill bg-primary text-white p-3 mx-2">flutter-local-notifications</p>
                             </div>
                         </div>
-                        <div class="card-footer bg-white">
+                        <div class="card-footer mt-auto bg-white">
                             <div class="d-flex flex-row justify-content-between">
                                 <a href="https://github.com/benj12/PushNotificationsApp" type="button"
                                     class="btn border w-40 rounded-pill text-black-50 border-dark-subtle p-3">
@@ -77,11 +77,11 @@
                 </div>
                 <div class="col">
                     <!-- Card 2 -->
-                    <div class="card mx-5 my-4 rounded border border-1">
+                    <div class="card mx-5 my-4 rounded border border-1 h-100 overflow-hidden d-flex flex-column">
                         <div class="bg-primary text-white fw-bold rounded-top p-3">
                             Styled-Landing-Page
                         </div>
-                        <div class="card-body bg-white">
+                        <div class="card-body bg-white flex-grow-1">
                             <p class="text-black">
                                 A mobile-first responsive landing page for a fake company <br>
                                 that is styled and formatted in a <br>professional manner.
@@ -91,7 +91,7 @@
                                 <p class="rounded-pill bg-primary text-white text-center p-3 mx-2">CSS</p>
                             </div>
                         </div>
-                        <div class="card-footer bg-white">
+                        <div class="card-footer bg-white mt-auto">
                             <div class="d-flex flex-column flex-lg-row justify-content-evenly">
                                 <a href="https://styled-landing-page-beta.vercel.app/" type="button"
                                     class="btn border w-40 rounded-pill text-primary border-primary p-3"><i
@@ -106,8 +106,8 @@
             
             </div>
         </section>
-        <section id="skills">
-            <div class="border border-1 bg-light">
+        <section id="skills" class="bg-light my-5">
+            <div class="container-fluid">
                 
                 <h2 class="p-3 text-center fw-bold gradient-border-centered">My Technical Arsenal</h2>
                 <p class="text-center text-black-50">Technologies and tools that I use to bring ideas to life</p>
@@ -135,7 +135,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
         
         <section id="contact">
