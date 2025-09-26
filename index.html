@@ -14,8 +14,8 @@
 <body>
     <header>
         <nav class="d-flex justify-content-between bg-dark p-1">
-            <h3 class="text-white">&lt; / &gt; Benjamin Williams</h3>
-            <ul class="nav">
+            <h3 class="text-white mx-3 my-2">&lt; / &gt; Benjamin Williams</h3>
+            <ul class="nav mx-3 my-2">
                 <li class="nav-item"><a class="nav-link text-white-50" href="#about"><i class="fa-solid fa-user text-white-50 me-1"></i>About</a></li>
                 <li class="nav-item"><a class="nav-link text-white-50" href="#projects"><i class="fa-solid fa-folder text-white-50 me-1"></i>Projects</a></li>
                 <li class="nav-item"><a class="nav-link text-white-50" href="#skills"><i class="fa-solid fa-gear text-white-50 me-1"></i>Skills</a>
@@ -36,48 +36,115 @@
             </div>
             <i class="fa-solid fa-laptop-code fa-10x text-white mt-4 mx-auto text-xl-right mt-lg-0"></i>
         </section>
+        <section id="about">
+            <h2 class="mx-4 my-2 p-3 fw-bold gradient-border-left">About Me</h2>
+            <p class="mx-4 my-2 p-3 text-black">Hi! I'm Benjamin, a programmer with 4+ years <br>of experience making mobile
+                apps.</p>
+        </section>
         <section id="projects">
             <h2 class="p-3 text-center fw-bold gradient-border-centered">Featured Projects</h2>
             <p class="text-center text-black-50">Innovative solutions that showcase my technical expertise</p>
-            <div class="cards d-flex flex-column align-items-center flex-lg-row justify-content-evenly">
-                <div class="card mx-5 my-4 rounded-4 border border-1">
-                    <div class="card-header bg-success text-white px-3 py-2 fw-bold rounded-top">
-                        Push Notifications App
-                    </div>
-                    <div class="card-body">
-                        <p class="text-black">An iOS app that sends the user local<br>push notifications daily for 14 days<br>and at the end prompts the user<br>to restart the 14 notifications.</p>
-                        <div class="d-flex flex-column flex-lg-row justify-content-between">
-                            <p class="rounded-pill bg-primary text-white p-3 mx-2">Dart</p>
-                            <p class="rounded-pill bg-primary text-white p-3 mx-2">Flutter</p><br>
-                            <p class="rounded-pill bg-primary text-white p-3 mx-2">flutter-local-notifications</p>
+            <!-- <div class="col d-flex flex-column align-items-center flex-lg-row justify-content-evenly"> -->
+            <!-- <div class="container py-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="card mx-5 my-4 rounded-4 border border-1">
+                        <div class="card-header bg-success text-white fw-bold rounded-top">
+                            Push Notifications App
+                        </div>
+                        <div class="card-body">
+                            <p class="text-black">An iOS app that sends the user local<br>push notifications daily for 14 days<br>and at the end prompts the user<br>to restart the 14 notifications.</p>
+                            <div class="d-flex flex-column flex-lg-row justify-content-between">
+                                <p class="rounded-pill bg-primary text-white p-3 mx-2">Dart</p>
+                                <p class="rounded-pill bg-primary text-white p-3 mx-2">Flutter</p><br>
+                                <p class="rounded-pill bg-primary text-white p-3 mx-2">flutter-local-notifications</p>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <div class="d-flex flex-row justify-content-between">
+                                <a href="https://github.com/benj12/PushNotificationsApp" type="button" class="btn border w-40 rounded-pill text-black-50 border-dark-subtle p-3"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-footer bg-white">
-                        <div class="d-flex flex-row justify-content-between">
-                            <a href="https://github.com/benj12/PushNotificationsApp" type="button" class="btn border w-40 rounded-pill text-black-50 border-dark-subtle p-3"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+                    <div class="card flex-fill mx-5 my-4">
+                        <div class="card-header bg-primary text-white px-3 py-2 fw-bold rounded-top">
+                            Styled-Landing-Page
+                        </div>
+                        <div class="card-body">
+                            <p class="text-black">A mobile-first responsive landing page for a fake company <br> that is styled and formatted in a <br>professional manner.</p>
+                            <div class="d-flex flex-column flex-lg-row justify-content-center">
+                                <p class="rounded-pill w-25 bg-primary text-white text-center p-3 mx-2">HTML</p>
+                                <p class="rounded-pill bg-primary text-white text-center w-25 p-3 mx-2">CSS</p>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <div class="d-flex flex-column flex-lg-row justify-content-evenly">
+                                <a href="https://styled-landing-page-beta.vercel.app/" type="button" class="btn border w-40 rounded-pill text-primary border-primary p-3"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live Site</a>
+                                <a href="https://github.com/benj12/styled-landing-page" type="button" class="btn border w-40 rounded-pill text-black-50 border-dark-subtle p-3"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="card mx-5 my-4">
-                    <div class="card-header bg-primary text-white px-3 py-2 fw-bold rounded-top">
-                        Styled-Landing-Page
-                    </div>
-                    <div class="card-body">
-                        <p class="text-black">A mobile-first responsive landing page for a fake company <br> that is styled and formatted in a <br>professional manner.</p>
-                        <div class="d-flex flex-column flex-lg-row justify-content-center">
-                            <p class="rounded-pill w-25 bg-primary text-white text-center p-3 mx-2">HTML</p>
-                            <p class="rounded-pill bg-primary text-white text-center w-25 p-3 mx-2">CSS</p>
+            </div> -->
+            <div class="row row-cols-1 row-cols-md-2 g-4 align-items-stretch">
+                
+                <div class="col">
+                    
+                    <div class="card mx-5 my-4 rounded-4 border border-1 overflow-hidden">
+                        <div class="bg-success text-white fw-bold rounded-top-4 p-3">
+                            Push Notifications App
                         </div>
-                    </div>
-                    <div class="card-footer bg-white">
-                        <div class="d-flex flex-column flex-lg-row justify-content-evenly">
-                            <a href="https://styled-landing-page-beta.vercel.app/" type="button" class="btn border w-40 rounded-pill text-primary border-primary p-3"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live Site</a>
-                            <a href="https://github.com/benj12/styled-landing-page" type="button" class="btn border w-40 rounded-pill text-black-50 border-dark-subtle p-3"><i class="fa-brands fa-github me-1"></i>GitHub</a>
-
+                        <div class="card-body">
+                            <p class="text-black">
+                                An iOS app that sends the user local<br>
+                                push notifications daily for 14 days<br>
+                                and at the end prompts the user<br>
+                                to restart the 14 notifications.
+                            </p>
+                            <div class="d-flex flex-wrap flex-lg-row justify-content-center gap-2">
+                                <p class="rounded-pill bg-primary text-white p-3 mx-2">Dart</p>
+                                <p class="rounded-pill bg-primary text-white p-3 mx-2">Flutter</p>
+                                <p class="rounded-pill bg-primary text-white p-3 mx-2">flutter-local-notifications</p>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <div class="d-flex flex-row justify-content-between">
+                                <a href="https://github.com/benj12/PushNotificationsApp" type="button"
+                                    class="btn border w-40 rounded-pill text-black-50 border-dark-subtle p-3">
+                                    <i class="fa-brands fa-github me-1"></i>GitHub
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <!-- Card 2 -->
+                    <div class="card mx-5 my-4 rounded border border-1">
+                        <div class="bg-primary text-white fw-bold rounded-top p-3">
+                            Styled-Landing-Page
+                        </div>
+                        <div class="card-body bg-white">
+                            <p class="text-black">
+                                A mobile-first responsive landing page for a fake company <br>
+                                that is styled and formatted in a <br>professional manner.
+                            </p>
+                            <div class="d-flex flex-wrap flex-lg-row justify-content-center gap-2">
+                                <p class="rounded-pill bg-primary text-white text-center p-3 mx-2">HTML</p>
+                                <p class="rounded-pill bg-primary text-white text-center p-3 mx-2">CSS</p>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <div class="d-flex flex-column flex-lg-row justify-content-evenly">
+                                <a href="https://styled-landing-page-beta.vercel.app/" type="button"
+                                    class="btn border w-40 rounded-pill text-primary border-primary p-3"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i>Live Site</a>
+                                <a href="https://github.com/benj12/styled-landing-page" type="button"
+                                    class="btn border w-40 rounded-pill text-black-50 border-dark-subtle p-3"><i
+                                        class="fa-brands fa-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
         </section>
         <section id="skills">
@@ -111,10 +178,7 @@
             </div>
 
         </section>
-        <section id="about">
-            <h2 class="mx-4 my-2 p-3 fw-bold gradient-border-left">About Me</h2>
-            <p class="mx-4 my-2 p-3 text-black">Hi! I'm Benjamin, a programmer with 4+ years <br>of experience making mobile apps.</p>
-        </section>
+        
         <section id="contact">
             <h2>Contact</h2>
         </section>
