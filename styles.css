@@ -21,11 +21,11 @@
 
 @keyframes typing {
     from {width: 0} 
-    to {width: 18ch};
+    to {width: 18ch}
 }
 @keyframes blink-caret {
-    from, to {border-color: transparent}
-    50% {border-color: orange};
+    from, to {border-color: transparent} 
+    50% {border-color: orange}
 }
 
 .gradient-border-centered {
@@ -55,6 +55,10 @@
     font-weight: bold;
     padding-bottom: 10px;
 }
+
+html, body {
+    overflow-x: hidden;
+}
 .gradient-border-left:before {
     content: '';
     position: absolute;
@@ -67,3 +71,4 @@
     transform: translateX(-50%);
     z-index: -1;
 }
+
