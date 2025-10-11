@@ -12,7 +12,7 @@
     display: inline-block;
     border-right: .15em solid orange;
     white-space: nowrap;
-    letter-spacing: .15em;
+    letter-spacing: .125em;
     width: 0;
     animation: 
         typing 1.8s steps(18, end) forwards,
