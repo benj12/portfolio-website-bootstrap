@@ -79,9 +79,12 @@ html, body {
 footer {
     margin: 0;
     padding: 0;
-    /* or only padding you want inside */
 }
 #footer-div {
-    background-color: rgb(15, 27, 29)
+    background-color: rgb(15, 27, 29);
+}
+.card:hover {
+    background-color: #c0c1c3;
+    transition: all 0.3s ease;
 }
 
