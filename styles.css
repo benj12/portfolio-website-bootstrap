@@ -7,6 +7,7 @@
     /* purple-blue gradient */
     border: none;
 }
+
 .typewriter {
     overflow: hidden;
     display: inline-block;
@@ -74,5 +75,13 @@ html, body {
 
 .roboto {
     font-family: "Roboto", sans-serif;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    /* or only padding you want inside */
+}
+#footer-div {
+    background-color: rgb(15, 27, 29)
 }
 
